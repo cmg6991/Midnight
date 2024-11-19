@@ -1,32 +1,53 @@
-# Prerequisites
-*.d
+# Visual Studio specific
+.vs/
+*.suo
+*.user
+*.vcxproj.user
+*.vcxproj.filters
+*.pidb
+*.unityproj
+*.userprefs
+*.DotSettings
+*.csproj.pidb
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
+# Build directories
+Debug/
+Release/
+x64/
+Library/
+Temp/
+obj/
 *.obj
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
+# Compiled binary files
+*.pdb
+*.idb
+*.ilk
+*.o
+*.lo
 *.la
+*.al
+*.libs
+*.so
+*.so.[0-9]
 *.a
-*.lib
 
-# Executables
-*.exe
-*.out
-*.app
+# Temporary files and logs
+*.log
+*.tlog
+*.rej
+*.recipe
+
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Editor backup and swap files
+*~
+.#*
+.*.swp
+
+# macOS and Windows system files
+.DS_Store
+[Tt]humbs.db
