@@ -1,5 +1,0 @@
-sceneSetups:
-- path: "E:/GA5thFinalProject_Vision/5_Project/\uC720\uB2C8\uD2F0/VisionProto/Assets/Scenes/SampleScene.unity"
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
